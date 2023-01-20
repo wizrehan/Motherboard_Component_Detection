@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 25
+names: ['AGP', 'Audio', 'BIOS', 'CMOS Slot', 'CMOS', 'CPU Socket', 'Capacitor', 'Cooling Fan', 'Ethernet', 'Heatsink', 'Northbridge', 'PCI Slot', 'PSU', 'Processor slot', 'RAM slot', 'Registor', 'SPDIF Optical Digital Audio Port', 'Southbridge', 'USB Port', 'USB Type B', 'VGA', 'core i5', 'core i7', 'intel core i3', 'ps-2']
+
+roboflow:
+  workspace: project
+  project: components-detection
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/components-detection/dataset/3
